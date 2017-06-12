@@ -74,7 +74,7 @@ public class DigitalClock extends Application {
         // add background image
         ImageView background = new ImageView(new Image(getClass().getResourceAsStream("DigitalClock-background.png")));
         // add digital clock
-        clock = new Clock(Color.ORANGE, Color.rgb(50,50,50));
+        clock = new Clock(Color.PURPLE, Color.rgb(50,50,50));
         clock.setLayoutX(45);
         clock.setLayoutY(186);
         clock.getTransforms().add(new Scale(0.83f, 0.83f, 0, 0));
